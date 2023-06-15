@@ -1546,16 +1546,22 @@ h3, h4, p, body {
 }
 
 pre {
-    color: #ffffff; 
+    color: #ffffff;
     font-weight: normal;
     font-size: 12pt;
     leading: 2pt;
-    white-space: pre-wrap;       /* css-3 */
-    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
-    white-space: -pre-wrap;      /* Opera 4-6 */
-    white-space: -o-pre-wrap;    /* Opera 7 */
-    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+    white-space: initial;
+    white-space: -moz-initial;
+    white-space: -initial;
+    white-space: -o-initial;
+    word-wrap: break-word;
 }
+
+.subdued-text {
+    font-size: 12pt;
+    color: #ff0000;
+    background-color: #1e1e1e;
+    }
 
 u, hr {
     color: transparent;
