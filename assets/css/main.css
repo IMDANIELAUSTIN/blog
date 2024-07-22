@@ -634,14 +634,22 @@ h1 , h2 , ul, ol, li, head {
     color: #ffffff;
     font-weight: bold;
     font-size: 16pt ;
-    leading: 1.2pt;
+    line-height: 18pt;
 }
 
-h3, h4, p, body {
+h3, h4, body {
     color: #ffffff;
     font-weight: normal;
     font-size: 12pt;
-    leading: 1.2pt;
+    line-height: 14pt;
+}
+
+p {
+    color: #ffffff;
+    font-weight: normal;
+    font-size: 12pt;
+    line-height: 14pt;
+    text-indent: 24px;
 }
 
 pre {
