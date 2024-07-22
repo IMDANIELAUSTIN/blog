@@ -339,7 +339,6 @@ h1 , h2 , ul, ol, li, head {
     font-weight: bold;
     font-size: 16pt ;
     leading: 1.2pt;
-    width: 90%;
     max-width: 1240px;
     margin: auto;
     padding-top: 16;
@@ -368,7 +367,6 @@ pre {
     white-space: -pre-wrap;      /* Opera 4-6 */
     white-space: -o-pre-wrap;    /* Opera 7 */
     word-wrap: break-word;       /* Internet Explorer 5.5+ */
-    width: 90%;
     max-width: 1240px;
     margin: auto;
 }
