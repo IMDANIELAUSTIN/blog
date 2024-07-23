@@ -338,7 +338,7 @@ h1 , h2 , ul, ol, li, head {
     color: #ffffff;
     font-weight: bold;
     font-size: 16pt ;
-    leading: 1.2pt;
+    line-height: 18pt;
     max-width: 1240px;
     margin: auto;
     padding-top: 16;
@@ -348,20 +348,23 @@ h3, h4, p, body {
     color: #ffffff;
     font-weight: normal;
     font-size: 12pt;
-    leading: 1.2pt;
+    line-height: 14pt;
     width: 90%;
     max-width: 1240px;
     padding-top: 16;
     margin: auto;
 }
 
+p:first-of-type {
+    text-indent: 0;
+}
 
 pre {
     display: inline-table;
     color: #ffffff;
     font-weight: normal;
     font-size: 12pt;
-    line-height: 24px;
+    line-height: 14pt;
     white-space: pre-wrap;       /* css-3 */
     white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
     white-space: -pre-wrap;      /* Opera 4-6 */
